@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev: Paras Singh</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/8a4d0d9fbf.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/resp.css">
+
+</head>
+
+
+<!--------------------------------------------OFFCANVAS--------------------------------------------------------------------------->
+<!--OFFCANVAS FROM LEFT-->
+
+
+
+<!-- <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+            lists, etc.
+        </div>
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--OFFCANVAS FROM TOP-->
+<div class="offcanvas offcanvas-top topcanvascolor" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel"></h5>
+    <button type="button" class="btn-close text-reset bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body ">
+    <div class="input"><input class="custom" type="text" name="search" placeholder="Search here.." id="">
+      <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+    </div>
+  </div>
+</div>
+
+
+
+<body>
+  <div id="ofcnvsleft" class="offcanvasfromleft">
+    <div class="ofcanvastop">
+      <h2><b>Frisk</b></h2><i id="cross" class="fa-solid fa-x"></i>
+    </div>
+    <div class="ofcanvasmid">
+      <div class="accordion widthdedo" id="accordionExample">
+        <div class="accordion-item borderdedo">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" style="background-color: white;" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              HOME
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ol>
+                <a href="">
+                  <li>Digital Agency</li>
+                </a>
+                <a href="">
+                  <li>Creative Agency</li>
+                </a>
+                <a href="">
+                  <li>Design Studio</li>
+                </a>
+                <a href="">
+                  <li>Digital Marketing</li>
+                </a>
+                <a href="">
+                  <li>Modern Agency</li>
+                </a>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item borderdedo">
+          <h2 class="accordion-header kacolor" id="headingTwo">
+            <button class="accordion-button collapsed kacolor" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              PAGES
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ol>
+                <a href="">
+                  <li>About Page</li>
+                </a>
+                <a href="">
+                  <li>Service Page</li>
+                </a>
+                <a href="">
+                  <li>Team Page</li>
+                </a>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item borderdedo">
+          <h2 class="accordion-header kacolor" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              PORTFOLIO
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ol>
+                <a href="">
+                  <li>Portfolio Masonary</li>
+                </a>
+                <a href="">
+                  <li>Portfolio Pinterest</li>
+                </a>
+                <a href="">
+                  <li>Portfolio Gallery</li>
+                </a>
+                <a href="">
+                  <li>Portfolio Full Width</li>
+                </a>
+                <a href="">
+                  <li>Portfolio Slider</li>
+                </a>
+                <a href="">
+                  <li>Portfolio Interactive</li>
+                </a>
+                <a href="">
+                  <li>Portfolio Details</li>
+                </a>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item borderdedo">
+          <h2 class="accordion-header kacolor" id="headingFour">
+            <button class="accordion-button collapsed" style="color:black" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              BLOG
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ol>
+                <a href="">
+                  <li>Blog Standard</li>
+                </a>
+                <a href="">
+                  <li>Blog 2 Column</li>
+                </a>
+                <a href="">
+                  <li>Blog Details</li>
+                </a>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="borderdedo">
+          <h2>
+            <button class="accordion-button collapsed kacolor butnnnn" type="" style="color: black;" data-bs-target=""
+              aria-expanded="" aria-controls="">
+              <a href="" style="color:rgb(0, 201, 0)">Contacts</a>
+            </button>
+          </h2>
+
+        </div>
+      </div>
+    </div>
+    <div class="ofcanvasbottom">
+      <div class="textt">
+        <h6>27 Division St, New York,
+          NY 10002, USA
+        </h6>
+        <h6>+1 800 123 654 987
+          frisk.agency@mail.com</h6>
+      </div>
+      <div class="socialss">
+        <a target="_blank" href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a target="_blank" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a target="_blank" href="https://x.com"><i class="fa-brands fa-twitter"></i></a>
+        <a target="_blank" href="https://dribble.com"><i class="fa-solid fa-basketball"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!--Navigation-->
+
+
+  <div class="navigation">
+    <div class="navleft"><a href="">
+        <h2>Home</h2>
+      </a></div>
+    <div class="navmid">
+      <ol class="order">
+        <li style=" padding-bottom:40px; padding-top:40px;" class="list1"><a href="">
+            <h4 style="color:rgb(0, 165, 0);" class="cashier1"><b>HOME</b></h4>
+            <div class="drop1">
+              <ul class="unorder">
+                <li><a href="">Digital Agency</a></li>
+                <li><a href="">Creative Agency</a></li>
+                <li><a href="">Design Studio</a></li>
+                <li><a href="">Digital Marketing</a></li>
+                <li><a href="" style="color:rgb(1, 151, 1);">Modern Agency</a></li>
+                <li><a href="">Creative Studio</a></li>
+                <li><a href="">Startup Agency</a></li>
+                <li><a href="">Personal Portfolio</a></li>
+              </ul>
+            </div>
+          </a></li>
+        <li style=" padding-top:40px; "><a href="">
+            <h4>PAGES</h4>
+            <div class="drop2">
+              <ul>
+                <li>About Page</li>
+                <li>Service Page</li>
+                <li>Team Page</li>
+                <li>Team Details Page</li>
+                <li>Pricing page</li>
+                <li>FAQ Page</li>
+                <li>Error Page</li>
+              </ul>
+            </div>
+          </a></li>
+        <li style=" padding-top:40px; "><a href="">
+            <h4>PORTFOLIO</h4>
+            <div class="drop3">
+              <ul>
+                <li>Portfolio Masonary</li>
+                <li>Portfolio Pinterest</li>
+                <li>Portfolio gallery</li>
+                <li>Portfolio Full Width</li>
+                <li>Portfolio Slider</li>
+                <li>Portfolio Interactive</li>
+                <li>Portfolio Details</li>
+              </ul>
+            </div>
+          </a></li>
+        <li style=" padding-top:40px; "><a href="">
+            <h4>BLOG</h4>
+            <div class="drop4">
+              <ul>
+                <li>Blog Standard</li>
+                <li>Blog 2 Column</li>
+                <li>Blog Details</li>
+              </ul>
+            </div>
+          </a></li>
+        <li style=" padding-top:40px; "><a href="">
+            <h4>CONTACT</h4>
+          </a></li>
+      </ol>
+    </div>
+    <div class="navright"><a href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+        aria-controls="offcanvasTop">
+        <h4><i class="fa-solid fa-magnifying-glass"></i>SEARCH</h4>
+      </a>
+      <div class="bars"><i id="bars" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample" class="fa-solid fa-bars"></i></div>
+    </div>
+
+  </div>
+
+
+  <!--Navigation Ends Here-->
+
+  <div class="backimg">
+    <div class="bckimgcontent">
+      <div class="bckimgleft">
+        <h1>Modern <br> Agency</h1>
+        <p>We are digital agency that helps immersive and engaging user experience.</p>
+        <div class="iconwithtext"><i class="fa-solid fa-basketball"></i>
+          <h6>AGENCY OF THIS YEAR WORLDWIDE</h6>
+        </div>
+      </div>
+      <div class="bckimgright">
+        <a href="">
+          <div class="beatinganim"><span>LET'S TALK
+              <br> WITH US</span></div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="firstcontent">
+    <div class="threesteps">
+      <div class="threetop">
+        <h2>Three Step Process</h2>
+      </div>
+      <div class="threedown">
+        <div class="threebox">
+          <div class="treetop">
+            <h6>STEP1</h6>
+            <div class="patti">
+              <div class="leftpatti"></div>
+              <div class="rightpatti"></div>
+            </div>
+          </div>
+          <div class="treebottom">
+            <h3>Strategic Approach</h3>
+            <p>We are a creative agency brands building insightful strategy, creating unique designs helping</p>
+          </div>
+        </div>
+        <div class="threebox">
+          <div class="treetop">
+            <h6>STEP2</h6>
+            <div class="patti">
+              <div class="leftpatti"></div>
+              <div class="rightpatti"></div>
+            </div>
+          </div>
+          <div class="treebottom">
+            <h3>Collaboration is Key</h3>
+            <p>We are a creative agency brands building insightful strategy, creating unique designs helping</p>
+          </div>
+        </div>
+        <div class="threebox">
+          <div class="treetop">
+            <h6>STEP3</h6>
+            <div class="patti">
+              <div class="leftpatti"></div>
+              <div class="rightpatti"></div>
+            </div>
+          </div>
+          <div class="treebottom">
+            <h3>End to End Delivery</h3>
+            <p>We are a creative agency brands building insightful strategy, creating unique designs helping</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="greybg">
+    <div class="greyleft"><img src="./media/images/about_1-1.jpg" alt=""></div>
+    <div class="greyright">
+      <h2><strong>We Offer a Wide Range of Brand Services</strong></h2>
+      <h6>We are a creative agency working with brands building insightful strategy, creating unique designs and
+        crafting value</h6>
+      <h3><strong>Human Centered Design to Challenges <br>
+          Bring Their Individual Experience <br>
+          Developing Core Web Applications</strong>
+      </h3>
+      <a href="">
+        <p><strong>ABOUT US <i style="transform: rotate(-45deg);" class="fa-solid fa-arrow-right"></i></strong></p>
+      </a>
+    </div>
+
+
+  </div>
+
+
+  <div class="dosp">
+    <div class="dsopcontent">
+      <div class="dosptop">
+        <h2><strong>Discover Our Selected</strong>
+          <br><strong>Projects</strong>
+        </h2>
+      </div>
+      <div class="dospbottom">
+        <div class="imgshowleft">
+          <a href=""><img src="./media/images/portfolio4_1.png" alt=""></a>
+          <div class="imgginfo">
+            <h2>Decentralized Platform</h2>
+            <h6>Branding/Development/Marketing</h6>
+          </div>
+          <a href=""><img src="./media/images/portfolio4_3.png" alt=""></a>
+          <div class="imgginfo">
+            <h2>App For Business</h2>
+            <h6>Development/Marketing</h6>
+          </div>
+        </div>
+        <div class="imgshowright">
+          <a href=""><img src="./media/images/portfolio4_2.png" alt=""></a>
+          <div class="imgginfo">
+            <h2>Educational Platform</h2>
+            <h6>Marketing/Branding</h6>
+          </div>
+          <a href=""><img src="./media/images/portfolio4_4.png" alt=""></a>
+          <div class="imgginfo">
+            <h2>Nova Scota Winery</h2>
+            <h6>Branding/Development/Marketing</h6>
+          </div>
+        </div>
+      </div>
+      <div class="dsoplast">
+        <button>
+          <div class="button">VIEW ALL PROJECTS</div>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="greybg2">
+
+    <div class="greybg2left">
+      <img src="./media/images/quote.svg" alt="">
+      <div class="bg2mid">
+        <p>"It's a pleasure working with Bunker our new brand positioning guidlines andtranslated them beautifully and
+          consistently into our on-going marketing comms"</p>
+      </div>
+      <div class="bg2bottom">
+        <h4><strong>Daniyel Karlos</strong></h4>
+        <h5>Senior Director of Marketing</h5>
+      </div>
+    </div>
+    <div class="greybg2mid">
+      <img src="./media/images/quote.svg" alt="">
+      <div class="bg2mid">
+        <p>"It's a pleasure working with Bunker our new brand positioning guidlines andtranslated them beautifully and
+          consistently into our on-going marketing comms"</p>
+      </div>
+      <div class="bg2bottom">
+        <h4><strong>Daniyel Karlos</strong></h4>
+        <h5>Senior Director of Marketing</h5>
+      </div>
+    </div>
+    <div class="greybg2right">
+      <img src="./media/images/quote.svg" alt="">
+      <div class="bg2mid">
+        <p>"It's a pleasure working with Bunker our new brand positioning guidlines andtranslated them beautifully and
+          consistently into our on-going marketing comms"</p>
+      </div>
+      <div class="bg2bottom">
+        <h4><strong>Daniyel Karlos</strong></h4>
+        <h5>Senior Director of Marketing</h5>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="videoplay">
+    <img src="./media/images/video_2-1.jpg" alt="">
+    <div id="play" class="playbutton"><strong>PLAY VIDEO</strong></div>
+  </div>
+
+  <div id="maskbright" class="brightness">
+    <div class="playbox">
+      <iframe style="resize: both;" id="ytplaystate" width="100%" height="100%"
+        src="https://www.youtube.com/embed/vvNwlRLjLkU?autoplay=1&mute=1" title="Reland - Architectural Buildings"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h2 id="vidcross">X</h2>
+
+    </div>
+  </div>
+
+
+  <div class="bgblack2">
+    <div class="bgblk2top">
+      <h2>Read Our Articles and News</h2>
+    </div>
+    <div class="bgblk2bottom">
+      <div class="bgblk2btmleft">
+        <a href=""><img id="srcdaalobrojsse" alt=""></a> <!--Js se implement karke dekho 4 practice-->
+        <h6><a href="">March 26, 2024 . Branding</a></h6>
+        <h4><a href="">Everything You Should Know About Return</a></h4>
+        <h3><a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a></h3>
+      </div>
+      <div class="bgblk2btmmid">
+        <a href=""><img src="./media/images/blog_1_2.png" alt=""></a>
+        <h6><a href="">March 26, 2024 . Branding</a></h6>
+        <h4><a href="">6 Big Commerce Design Tips For Big Results</a></h4>
+        <h3><a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a></h3>
+      </div>
+      <div class="bgblk2btmright">
+        <a href=""><img src="./media/images/blog_1_3.png" alt=""></a>
+        <h6><a href="">March 26, 2024 . Branding</a></h6>
+        <h4><a href="">Four Steps to Conduct a Successful Usability</a></h4>
+        <h3><a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a></h3>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="bgblack3">
+    <div class="bgyellow1">
+      <div class="bgyel1left">
+        <h2>Let's Work Together</h2>
+
+      </div>
+      <div class="bgyel1right">
+        <p>We are digital agency that helps business develop immersive <br> and engaging user experiences</p>
+        <button class="colordo">
+          <div class="pseudokarenge">
+            <p>LET'S TALK WITH US</p>
+          </div>
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  <div class="footer">
+    <div class="fcontent">
+      <div class="fotop">
+        <div class="fleft">
+          <h3>
+            <strong>About</strong>
+          </h3>
+          <p>
+            If you ask our clients what it’s like working with talk how much we care about their success. relationships
+            fuel real success. We love building brands
+          </p>
+          <div class="socials">
+            <a target="_blank" href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://x.com"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="https://dribble.com"><i class="fa-solid fa-basketball"></i></a>
+          </div>
+        </div>
+        <div class="fmid">
+          <ul><h3><strong>Links</strong></h3>
+            <li><a href="">About</a></li>
+            <li><a href="">Porfolios</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Careers</a></li>
+          </ul>
+        </div>
+        <div class="fright">
+          <ul><h3><strong>Others</strong></h3>
+            <li><a href="">Featured Project</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Clients and Partners</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      
+    <div class="fbottom">
+      <div class="fbtmleft"><h5>
+        27 Division St, New York,
+        NY 10002, USA</h5>
+      </div>
+      <div class="fbtmright"><h5>
+        +1 800 123 654 987</h5>
+        <h6>frisk.agency@mail.com</h6>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+<script>
+  // let homeGreen = document.getElementsByClassName("cashier");
+  // homeGreen.style.color="rgb(0, 255, 0)";
+
+
+
+
+
+
+  let srcdaalobrojsse = document.getElementById("srcdaalobrojsse");
+  let iframe = document.getElementById("ytplaystate");
+  let bars = document.getElementById("bars");
+  let src = iframe.src;
+  bars.addEventListener("click", function () {
+
+    ofcnvsleft.style.left = "0px";
+
+  });
+
+  let cross = document.getElementById("cross");
+  cross.addEventListener("click", function () {
+    ofcnvsleft.style.left = "-100%";
+  });
+
+  let maskbright = document.getElementById("maskbright");
+  let play = document.getElementById("play");
+  play.addEventListener("click", function (p) {
+    maskbright.style.display = "flex";
+    iframe.play();
+  });
+
+  let vidcross = document.getElementById("vidcross");
+  vidcross.addEventListener("click", function () {
+    maskbright.style.display = "none";
+  });
+
+
+  vidcross.addEventListener("click", function () {
+    iframe.src = iframe.src;
+
+  });
+  srcdaalobrojsse.setAttribute("src", "./media/images/blog_1_1.png");
+  console.log(srcdaalobrojsse);
+  // document.appendChild(srcdaalobrojsse);
+
+</script>
+
+
+
+</html>
